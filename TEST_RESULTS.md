@@ -7,7 +7,7 @@ Verified on 2026-09-28 against the included source and compiled engine.
 - **Architecture:** x86_64
 - **Compiler:** Apple Clang 17.0.0; C++17 with `-O2 -Wall -Wextra -Wpedantic`; compilation completed without warnings.
 - **Python:** 3.14.7; standard library only.
-- **Interface checks:** Python module compilation and JavaScript syntax checks passed. Browser interaction and screenshot QA are recorded separately by the portfolio assembly process.
+- **Interface checks:** Python module compilation and JavaScript syntax checks passed. Browser interaction and screenshot QA are recorded separately by the assembly process.
 - **Windows status:** Not compiled or run on Windows. Windows build instructions are guidance only.
 
 The tests invoke the real C++ executable with temporary source/output files. They also invoke the same Python adapter used by the dashboard. They verify preservation of originals and rejection of existing output destinations. Fixtures are deliberately constructed verification inputs, not customer data.

@@ -108,7 +108,6 @@ Windows compilation and runtime compatibility are unverified. A filesystem with 
 - `web/`: complete browser interface with local assets.
 - `fixtures/`: labeled reproducible verification inputs.
 - `tests/`: real engine and adapter behavior checks.
-- `CASE_STUDY.md`: factual portfolio narrative.
 - `screenshots/`: captures of the running application with labeled verification inputs.
 
 ## License
